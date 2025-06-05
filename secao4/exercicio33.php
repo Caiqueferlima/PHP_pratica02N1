@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 31</title>
+    <title>Exercício 33</title>
 </head>
 <body>
     <?php
-        function boasVindas($nome) {
-            echo "<h1>Bem-vindo, $nome!</h1>";
-        }
-
-        boasVindas("Caíque");
+    function custoTotal($preco, $quantidade){
+        return $preco * $quantidade;
+    }
+    echo "O valor total é de R\$". custoTotal(55, 7);
     ?>
 </body>
 </html>

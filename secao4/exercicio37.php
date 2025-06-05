@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 31</title>
+    <title>Exercício 37</title>
 </head>
 <body>
     <?php
-        function boasVindas($nome) {
-            echo "<h1>Bem-vindo, $nome!</h1>";
+        function bemVindo($nome) {
+            return "Bem-vindo, " . $nome . "!";
         }
 
-        boasVindas("Caíque");
+        echo bemVindo("Caíque");
     ?>
 </body>
 </html>
